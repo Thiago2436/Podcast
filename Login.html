@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/Podcast/Sstilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="pt-br, fr, it">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+       <div>
+        <img  src="/Podcast/art.jpg" width="100" height="100">
+        <h1 > &check; TM CAST &copy;</h1>
+        <a href="/Podcast/index.html"> <h1>Voltar</h1> </a>
+    </div>
+    </header>
+    
+    <main>
+        <h1> Login : </h1>
+        <div>
+            <form action="login.php" method="POST">
+                <label for="nome"> Nome </label>
+                <input type="text" name="Nome" id="Nom" required>
+                <label for="senha"> Senha </label>
+                <input type="text" name="Senha" id="Sen" required ><input type="submit" value=" login "><br>
+            </form>
+        </div><br>
+        <h1> Cadastrar Senha </h1>
+        <div>
+        <form action="cadastro.php" method="post">
+            <label for="user"> Nome de usuario...:</label>
+            <input type="text" name="User" required><br>
+            <label for="email"> E Mail do usuario.:</label>
+            <input type="text" name="Email" id="Ema" required><br>
+            <label for="pass"> Senha....................: </label>
+            <input type="text" name="Pass" id="Pas" required><br>
+            <label for="confirmpass"> Confirme a senha..:</label>
+            <input type="text" name="Confirm" id="Con"required><br><br>
+            <label for="Cadsenha"> Cadastrar senha</label>
+            <input type="submit" value=" Cadastrar senha"><br>
+        </form>    
+        </div>
+        <br>
+
+        <div>
+            <label for="menu"> Menu </label>
+            <select name=" menu" id="">
+                <option value="">Configuraçoes</option>
+                <option value="">Minha Conta</option>
+                <option value="">Segurança</option>
+                <option value="">Idioma</option>
+                <option value="">Relatar problema</option>
+                <option value="">Sobre/Ajuda</option>
+            </select>
+        </div>
+        
+    </main><br><br>
+    <footer>
+        <div>
+            <a href="/Podcast/index.html"> Voltar </a><br><br>
+            &copy; 2021 Thiago Martins , All rights reserved.
+        </div><br>
+        <address> Rua. Antonio Manchine 10 - Garça-SP</address>
+    </footer>
+</body>
+</html>
