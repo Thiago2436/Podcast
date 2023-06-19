@@ -1,4 +1,6 @@
 # 🎙️ Podcast "Iniciado aos 30": Dar uma virada de carreira após os 30 anos 🚀
+
+Link: https://thiago2436.github.io/Podcast/ <br>
 > O podcast "Iniciado aos 30" é um projeto que busca ajudar pessoas que desejam mudar de carreira ou empreender após os 30 anos. Com a participação de Magrelo e convidados, abordamos temas relacionados a carreira, empreendimentos, foco, inteligência financeira, habilidades e atributos necessários para alcançar o sucesso.
 
 # 🎧 Episódios
